@@ -165,7 +165,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
 [Document11]
-DocumentPath=..\..\Library\PBL - SMD Packages.PcbLib
+DocumentPath=smart_led.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -179,7 +179,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
 [Document12]
-DocumentPath=..\..\Library\PBL - Connectors.SCHLIB
+DocumentPath=..\..\Library\PBL - SMD Packages.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -193,21 +193,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 
 [Document13]
-DocumentPath=top.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-
-[Document14]
-DocumentPath=smart.PcbDoc
+DocumentPath=..\..\Library\PBL - Connectors.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -222,6 +208,12 @@ ClassGenNCAutoScope=None
 
 [GeneratedDocument1]
 DocumentPath=..\..\Library\PBL - SMD Packages.PcbLib.htm
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for SmartLED\SmartLED.BOM
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SmartLED\SmartLED.CSV
 
 [OutputGroup1]
 Name=Netlist Outputs
