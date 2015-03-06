@@ -1,0 +1,376 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002014, month=000000000009, day=000000000029, hour=000000000009, min=000000000028, sec=000000000029)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000026928, lin=000000000353, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock176'
+	SolutionName='AdaptivePass'
+	SolutionID=350
+	V=851
+	$begin 'States'
+		F(VID=1019, Ver=851)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2450000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=1019, Ver=851, File='DV1019_SOL350_M1_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=1019, Ver=851, File='DV1019_SOL350_M2_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=1019, Ver=851, File='DV1019_SOL350_M3_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=1019, Ver=851, File='DV1019_SOL350_M4_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=1019, Ver=851, File='DV1019_SOL350_M5_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=1019, Ver=851, File='DV1019_SOL350_M6_V851.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'A'
+		$begin 'SubData'
+			ID=0
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A0_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A1_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A2_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A3_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A4_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A5_V851.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			A(VID=1019, Ver=851, File='DV1019_SOL350_A6_V851.sd')
+		$end 'SubData'
+	$end 'A'
+$end 'SolutionBlock176'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=349, Instance=\'A=\\\'2mm\\\' B=\\\'2.5mm\\\' GndX=\\\'20mm\\\' GndY=\\\'15mm\\\' H=\\\'5mm\\\' L=\\\'2.5mm\\\' lambda=\\\'122.4mm\\\' offset=\\\'4mm\\\' S=\\\'1.5mm\\\' SubH=\\\'0.8mm\\\' W=\\\'0.508mm\\\'\', Solution=-3, VersionID=851)'='SolutionBlock241'
+	'SolutionKey(SimSetup=349, Instance=\'SetupDefinition\', Solution=-1, VersionID=851)'='SolutionBlock179'
+	'SolutionKey(SimSetup=349, Instance=\'SolutionDefinition\', Solution=350, VersionID=851)'='SolutionBlock176'
+	'SolutionKey(SimSetup=349, Instance=\'SolutionDefinition\', Solution=351, VersionID=851)'='SolutionBlock177'
+	'SolutionKey(SimSetup=349, Instance=\'SolutionDefinition\', Solution=354, VersionID=851)'='SolutionBlock178'
+$end 'BlockMapName'
+$begin 'SolutionBlock177'
+	SolutionName='LastAdaptive'
+	SolutionID=351
+	V=851
+	$begin 'States'
+		F(VID=1019, Ver=851)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(2450000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=1019, Ver=851, File='DV1019_SOL351_M0_V851.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(422, 2450000000)
+		$begin 'DataMap'
+			VID=1019
+			Ver=851
+			F(DblID=422, Dir='DV1019_S351_V851_F422/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock177'
+$begin 'SolutionBlock178'
+	SolutionName='Sweep'
+	SolutionID=354
+	V=851
+	$begin 'States'
+		F(VID=1019, Ver=851)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LINC'
+		StartFreq=2000000000
+		StopFreq=3000000000
+		NumSamplingPoints=21
+		SolutionType=4
+		CenterFreq=2500000000
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=1019, Ver=851, File='DV1019_SOL354_M0_V851.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(436, 2500000000)
+		$begin 'DataMap'
+			VID=1019
+			Ver=851
+			F(DblID=436, Dir='DV1019_S354_V851_F436/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock178'
+$begin 'SolutionBlock179'
+	SimSetupID=349
+	SimSetupName='Setup1'
+	VersionID=851
+	IsImported=false
+	IsTable=false
+	SolveSetupID=1
+	$begin 'CurrMeshes'
+		M(VID=1019, Ver=851, Dir='DV1019_S349_V851.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'RadFieldSurfMeshes'
+		SM(VID=1019, Ver=851, Dir='DV1019_S349_V851.sfmesh/')
+	$end 'RadFieldSurfMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=1019, Ver=851, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=1019, Ver=851, P=6)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=1019, Ver=851, File='DV1019_S349_V851.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=1019, Ver=851, Dir='DV1019_S349_MI0_V851.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock179'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=851
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1026
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'2.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=896)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=1019)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.5mm\'', ID=943)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.6mm\'', ID=944)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.7mm\'', ID=945)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.8mm\'', ID=946)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.9mm\'', ID=947)
+		Map(V='A=\'2mm\' B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=948)
+		Map(V='A=\'2mm\' B=\'3mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'2.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=905)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=439)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=442)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=445)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=467)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=470)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=473)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=494)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=497)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=500)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=521)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=524)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=527)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=448)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=452)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=455)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=476)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=479)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=482)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=503)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=506)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=509)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=530)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=533)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=536)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=458)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=461)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=464)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=485)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=488)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=491)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=512)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=515)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=518)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=539)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=542)
+		Map(V='B=\'1.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=545)
+		Map(V='B=\'1mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=122)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=440)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=443)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=446)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=468)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=471)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=474)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=495)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=498)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=501)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=522)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=525)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=528)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=450)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=453)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=456)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=129)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'2.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=348)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=477)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=480)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=483)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=64)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=119)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=504)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=507)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=510)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=120)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=531)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=534)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=537)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=128)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=121)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=459)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=462)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=465)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'1.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=672)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'2.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=673)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=486)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=489)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=492)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=674)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=513)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=516)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=519)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=540)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=543)
+		Map(V='B=\'2.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=546)
+		Map(V='B=\'2mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=123)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=441)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=444)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=447)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=469)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=472)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=475)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=496)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=499)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=502)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=523)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=526)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'3.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=529)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=451)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=454)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=457)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=478)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=481)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=484)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=505)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=508)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=511)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=532)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=535)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=538)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=460)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=463)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'1.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=466)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=487)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=490)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'2.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=493)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=514)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=517)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'3.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=520)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'3.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=541)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'4.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=544)
+		Map(V='B=\'3.5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'5.5mm\' L=\'4.5mm\' lambda=\'122.4mm\' offset=\'4mm\' S=\'5.5mm\' SubH=\'0.8mm\' W=\'0.508mm\'', ID=547)
+		Map(V='B=\'3mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=124)
+		Map(V='B=\'4mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=125)
+		Map(V='B=\'5mm\' GndX=\'20mm\' GndY=\'15mm\' H=\'4.5mm\' L=\'4mm\' lambda=\'122.4mm\' offset=\'3mm\' S=\'3mm\' SubH=\'0.8mm\' W=\'1mm\'', ID=126)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=1019, Ver=851, Dir='DV1019_V851.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=1019, Ver=851, Dir='DV1019_MI0_V851.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock241'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=false
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='0'
+	c(passno=1, numtets=810)
+	c(passno=2, numtets=993, magdeltas=0.344581202991862)
+	c(passno=3, numtets=1295, magdeltas=0.157198998242453)
+	c(passno=4, numtets=1695, magdeltas=0.02222887673412848)
+	c(passno=5, numtets=2191, magdeltas=0.02629198497735198)
+	c(passno=6, numtets=2860, magdeltas=0.03749809143353639)
+$end 'SolutionBlock241'
+$begin 'OptimetricsResults'
+$end 'OptimetricsResults'
+$begin '$index$'
+	$begin '$index$'
+		OptimetricsResults(pos=26874, lin=351, lvl=0)
+		SolutionBlock176(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=2112, lin=76, lvl=0)
+		SolutionBlock177(pos=2900, lin=84, lvl=0)
+		SolutionBlock178(pos=3573, lin=117, lvl=0)
+		SolutionBlock179(pos=4310, lin=153, lvl=0)
+		SolutionBlock1(pos=5032, lin=182, lvl=0)
+		SolutionBlock241(pos=26351, lin=336, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=26928, lin=353, lvl=0)
+	$end '$index$'
+$end '$index$'
